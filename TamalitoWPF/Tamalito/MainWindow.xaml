@@ -1,0 +1,41 @@
+﻿<Window x:Class="Tamalito.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tamalito"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="Inicio" Height="470" Width="625" WindowStyle="None" AllowsTransparency="True" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Border Grid.Row="0" Background="Transparent" MouseLeftButtonDown="Border_MouseLeftButtonDown">
+            <Grid>
+                <materialDesign:ColorZone Mode="PrimaryDark" Height="50" Margin="0,0,-0.2,-19.6">
+
+                    <StackPanel HorizontalAlignment="Right" Margin="0 10 10 0">
+                        <Button Width="32" Height="32" materialDesign:ShadowAssist.ShadowDepth="Depth3" Padding="0" Click="Button_Click">
+                            <materialDesign:PackIcon Kind="WindowClose"/>
+                        </Button>
+                    </StackPanel>
+                </materialDesign:ColorZone>
+            </Grid>
+        </Border>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="621*"/>
+                <ColumnDefinition Width="4*"/>
+            </Grid.ColumnDefinitions>
+            <Label x:Name="lbBienvenida" Content="Bienvenido a Tamalito" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="72,95,68.708,0" Width="480" FontSize="44" Foreground="#FF607D8B" FontWeight="Bold"/>
+            <Button x:Name="btInicioSesion" Content="Comenzar" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="229,261,232.708,131" Width="159" Height="48" Click="BtInicioSesion_Click" FontSize="22"/>
+        </Grid>
+
+
+
+    </Grid>
+</Window>

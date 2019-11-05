@@ -1,0 +1,60 @@
+﻿<Window x:Class="Tamalito.IniciarSesion"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        Background="{DynamicResource MaterialDesignPaper}"
+        TextElement.FontWeight="Medium"
+        TextElement.FontSize="14"
+        FontFamily="pack://application:,,,/MaterialDesignThemes.Wpf;component/Resources/Roboto/#Roboto"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tamalito"
+        mc:Ignorable="d"
+        Title="IniciarSesion" Height="470" Width="425" WindowStyle="None" AllowsTransparency="True" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Border Grid.Row="0" Background="Transparent" MouseLeftButtonDown="Border_MouseLeftButtonDown">
+            <Grid Background="#FF455A64">
+                <Button HorizontalAlignment="Left" Width="32" Height="32" Margin="9 0 0 0" materialDesign:ShadowAssist.ShadowDepth="Depth3" Padding="0" Click="BtRegresar_Click" >
+                    <materialDesign:PackIcon Kind="ArrowBack"/>
+                </Button>
+                <Button HorizontalAlignment="Right" Width="32" Height="32" Margin="0 0 9 0" materialDesign:ShadowAssist.ShadowDepth="Depth3" Padding="0" Click="Button_Click">
+                    <materialDesign:PackIcon Kind="WindowClose"/>
+                </Button>
+                
+            </Grid>
+        </Border>
+
+        <Grid Grid.Row="1">
+            <materialDesign:ColorZone Mode="PrimaryMid">
+                <TextBlock Text="Tamalito" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0 20 0 20" FontFamily="Segoe UI" FontWeight="Bold" Foreground="White"/>
+            </materialDesign:ColorZone>
+        </Grid>
+
+        <Grid Grid.Row="2">
+            <StackPanel Orientation="Vertical" Margin="40 40 0 0">
+                <StackPanel Orientation="Horizontal">
+                    <materialDesign:PackIcon Kind="Account" Foreground="{Binding ElementName=tbUsuario, Path=BorderBrush}" VerticalAlignment="Bottom" Margin="0 4" Height="20" Width="26"/>
+                    <TextBox x:Name="tbUsuario" Width="300" materialDesign:HintAssist.Hint="Usuario" materialDesign:HintAssist.IsFloating="True" FontSize="16"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Margin="0 45 0 0">
+                    <materialDesign:PackIcon Kind="Key" Foreground="{Binding ElementName=tbUsuario, Path=BorderBrush}" VerticalAlignment="Bottom" Margin="0 4" Height="21" Width="19"/>
+                    <PasswordBox x:Name="pbContra" Width="300" materialDesign:HintAssist.Hint="Contraseña" materialDesign:HintAssist.IsFloating="True" FontSize="16"/>
+                </StackPanel>
+
+                <Button Style="{DynamicResource MaterialDesignRaisedLightButton}" Content="Iniciar sesión" Width="144" HorizontalAlignment="Left"  Margin="100 60 0 0" Click="BtContinuar_Click" FontSize="16" Height="40"/>
+            </StackPanel>
+        </Grid>
+
+    
+
+    </Grid>
+</Window>
