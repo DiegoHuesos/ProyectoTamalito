@@ -35,7 +35,7 @@
             <asp:Button text="Iniciar" id="Enviar" class="bt" runat="server" OnClick="Enviar_Click"/>
             <br />
             <br />
-            <asp:Label ID="lbRegistroNuevo" runat="server" Text="" ForeColor="White"></asp:Label>
+            <asp:Label ID="lbMensaje" runat="server" Text="" ForeColor="White"></asp:Label>
             <br />
         </div>
     </form>

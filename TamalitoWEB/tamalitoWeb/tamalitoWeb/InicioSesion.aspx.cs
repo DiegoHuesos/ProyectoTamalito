@@ -26,7 +26,7 @@ namespace tamalitoWeb
         protected void Page_Load(object sender, EventArgs e)
         {
             if (Session["idRegistrado"] != null) //Devuelve el mensaje correspondiente en caso de que un nuevo usario se haya registrado. En la página de registro se puede ver más al respecto
-                lbRegistroNuevo.Text = Session["idRegistrado"].ToString();
+                lbMensaje.Text = Session["idRegistrado"].ToString();
         }
 
         protected void Enviar_Click(object sender, EventArgs e) //Funcionalidad del botón
@@ -50,8 +50,7 @@ namespace tamalitoWeb
                     else
                     {
                         Session["usuario"] = "";
-                        String respuesta = "Contraseña Incorrecta";  //Se muestra este mensaje cuando la constraseña está incorrecta y no te da acceso a la página de Ordenar
-                        Response.Write(respuesta);
+                        lbMensaje.Text = "Contraseña Incorrecta";//Se muestra este mensaje cuando la constraseña está incorrecta y no te da acceso a la página de Ordenar
                     }
                 }
                 else
