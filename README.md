@@ -36,6 +36,8 @@ En ambas aplicaciones, se accedió a la base de datos inicializada en el Manejad
 - Permitir que el dueño como los gerentes puedan añadir añadir inventario.
 - Permitir acceso y visualización de las ventas al dueño del negocio para analizar y/o alterar los costos de los productos.
 
+![Imagen de la interfaz dde Tamalito](https://github.com/DiegoHuesos/ProyectoTamalito/blob/master/TamalitoWPF/Tamalito/images/GUI_WPF_Tamalito_Img.PNG)
+
 ###  WEB
 - Mediar la comunicación entre usuario y negocio. 
 - Mostrar la página ágina de presentación con información sobre el negocio (landing page).
@@ -44,8 +46,7 @@ En ambas aplicaciones, se accedió a la base de datos inicializada en el Manejad
 - Un usuario puede hacer más de un pedido y en cada pedido puede pedir cuantos productos quiera. 
 - El usuario puede cerrar sus sesión.
 
-
-![GUI_WPF_Tamalito_Image](https://github.com/DiegoHuesos/ProyectoTamalito/blob/master/TamalitoWPF/Tamalito/images/GUI_WPF_Tamalito_Img.PNG)
+![Imagen de la interfaz web de Tamalito](https://github.com/DiegoHuesos/ProyectoTamalito/blob/master/TamalitoWEB/images/GUI_WEB_Tamalito_Img.PNG)
 
 
 ## Restricciones 
@@ -116,7 +117,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWFsaXRvXG5hdXRob3
 I6IERpZWdvIEhlcm7DoW5kZXogRGVsZ2Fkb1xudGFnczogJ1JF
 QURNRSwgVGFtYWxpdG8sIFdQRiwgV0VCLCAuTkVULCBTUUxTZX
 J2ZXInXG5jYXRlZ29yaWVzOiAnV0VCLCAuTkVULCBBUFAnXG5k
-YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbMTI2MTkwNz
-E2OCw5MzQ0MDA1OTgsLTc0ODM5MzM0MywtMTkxNzk4ODUyM119
-
+YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbMzg0OTk2Nz
+k1LDEyNjE5MDcxNjgsOTM0NDAwNTk4LC03NDgzOTMzNDMsLTE5
+MTc5ODg1MjNdfQ==
 -->
