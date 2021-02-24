@@ -5,7 +5,7 @@ Esta aplicación permite realizar una orden de compra de tamales y atoles desde 
 
 La presente propuesta de negocio acompañada de la solución tecnológica presente en este repositorio nació como respuesta a los altos precios de la cafetería del [ITAM](itam.mx), así como, de la gran fascinación por la gastronomía mexicana popular por parte de los miembros de este equipo. 
 
-El desarrollo del proyecto se llevó a cabo como evidencia entregable para la calificación final de la materia de Desarrollo de Aplicaciones Informáticas impartida por la [Dra. Ana Lidia Franzoni](https://www.linkedin.com/in/ana-lidia-franzoni-5b19429) en el  [Instituto Tecnológico Autónomo de México](itam.mx).
+El desarrollo del proyecto se llevó a cabo como evidencia entregable para la calificación de la materia de Desarrollo de Aplicaciones Informáticas impartida por la [Dra. Ana Lidia Franzoni](https://www.linkedin.com/in/ana-lidia-franzoni-5b19429) en el  [Instituto Tecnológico Autónomo de México](itam.mx).
 
 ## Equipo de desarrollo
 - [Digeo Hernández Delgado](https://github.com/DiegoHuesos)
@@ -87,8 +87,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWFsaXRvXG5hdXRob3
 I6IERpZWdvIEhlcm7DoW5kZXogRGVsZ2Fkb1xudGFnczogJ1JF
 QURNRSwgVGFtYWxpdG8sIFdQRiwgV0VCLCAuTkVULCBTUUxTZX
 J2ZXInXG5jYXRlZ29yaWVzOiAnV0VCLCAuTkVULCBBUFAnXG5k
-YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbMTAxNzA4MD
-UwNCwtMTc3NzgxMDE3MSwtOTQ2MjM4NzExLDg2NDM3Mzc0Niwx
+YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbLTE4MzQ0OD
+A1MCwtMTc3NzgxMDE3MSwtOTQ2MjM4NzExLDg2NDM3Mzc0Niwx
 Nzg1NDE3MzEsMTMxMzgwODc1NywtMjEyNTA4NTA4NCwtODM5OD
 UzNDk5LDEyNzM1NzgyMSwtMTMyMjE5NzMwNCwxMjYxOTA3MTY4
 LDkzNDQwMDU5OCwtNzQ4MzkzMzQzLC0xOTE3OTg4NTIzXX0=
