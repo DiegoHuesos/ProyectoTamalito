@@ -67,7 +67,6 @@ Tamalito puede identificarse, desde la perepectiva de la aplicación web, con lo
 Desde la perspectiva de la aplicación WPF, el proyecto puede identificarse con cualquier otro sistema de control centralizado de restaurantes restaurantes, ventas y administración de inventario.
 
 
-
 ```flow
 st=>start: Start:>http://google.com[blank]
 e=>end:>http://google.com
@@ -129,8 +128,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWFsaXRvXG5hdXRob3
 I6IERpZWdvIEhlcm7DoW5kZXogRGVsZ2Fkb1xudGFnczogJ1JF
 QURNRSwgVGFtYWxpdG8sIFdQRiwgV0VCLCAuTkVULCBTUUxTZX
 J2ZXInXG5jYXRlZ29yaWVzOiAnV0VCLCAuTkVULCBBUFAnXG5k
-YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbMTMxMzgwOD
-c1NywtMjEyNTA4NTA4NCwtODM5ODUzNDk5LDEyNzM1NzgyMSwt
-MTMyMjE5NzMwNCwxMjYxOTA3MTY4LDkzNDQwMDU5OCwtNzQ4Mz
-kzMzQzLC0xOTE3OTg4NTIzXX0=
+YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbMTc4NTQxNz
+MxLDEzMTM4MDg3NTcsLTIxMjUwODUwODQsLTgzOTg1MzQ5OSwx
+MjczNTc4MjEsLTEzMjIxOTczMDQsMTI2MTkwNzE2OCw5MzQ0MD
+A1OTgsLTc0ODM5MzM0MywtMTkxNzk4ODUyM119
 -->
