@@ -19,6 +19,30 @@ Para la interfaz gráfica de usuario (GUI por sus siglas en inglés) de la **apl
 
 Por otro lado, el *frontend* de **aplicación WEB** se desarrolló con **HTML** para la estructura de los elemementos, **CSS** para el estilo y animaciones de la estructura, **Javascript** para integrar los mapas de Google, **.NET** como *framework* de Microsoft para el desarrollo integral y **C#** como lenguaje de programación para la lógica de la aplicación.
 
+    protected OdbcConnection conectarBD() { //Se crea el método para conectarse a la base de datos. Este está presente en todas las ventanas que lo necesitan.
+
+String stringConexion = "Driver={SQL Server Native Client 11.0};Server=localhost;Uid=sa;Pwd=sqladmin;Database=tamalito";
+
+try {
+
+OdbcConnection conexion = new OdbcConnection(stringConexion);
+
+conexion.Open();
+
+return conexion;
+
+} catch (Exception ex) {
+
+String respuesta = "Error" + ex;
+
+Response.Write(respuesta);
+
+return null;
+
+}
+
+}
+
 En ambas aplicaciones, se accedió a la base de datos inicializada en el Manejador de Base de Datos (**DBMS** por sus siglas en inglés) conocido com Microsoft **SQLServer 2019 Developer** a través de un **driver** para poder agregar, modificar y borrar los registros. 
 ![Diagrama Base de Datos Tamalito](https://github.com/DiegoHuesos/ProyectoTamalito/blob/master/BD_Tamalito/Diagrama_BD.png)
 ## Sugerencias para la replicación e implementación
@@ -69,9 +93,9 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWFsaXRvXG5hdXRob3
 I6IERpZWdvIEhlcm7DoW5kZXogRGVsZ2Fkb1xudGFnczogJ1JF
 QURNRSwgVGFtYWxpdG8sIFdQRiwgV0VCLCAuTkVULCBTUUxTZX
 J2ZXInXG5jYXRlZ29yaWVzOiAnV0VCLCAuTkVULCBBUFAnXG5k
-YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbLTE3Nzc4MT
-AxNzEsLTk0NjIzODcxMSw4NjQzNzM3NDYsMTc4NTQxNzMxLDEz
-MTM4MDg3NTcsLTIxMjUwODUwODQsLTgzOTg1MzQ5OSwxMjczNT
-c4MjEsLTEzMjIxOTczMDQsMTI2MTkwNzE2OCw5MzQ0MDA1OTgs
-LTc0ODM5MzM0MywtMTkxNzk4ODUyM119
+YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbLTE5NjI4OD
+EzNjcsLTE3Nzc4MTAxNzEsLTk0NjIzODcxMSw4NjQzNzM3NDYs
+MTc4NTQxNzMxLDEzMTM4MDg3NTcsLTIxMjUwODUwODQsLTgzOT
+g1MzQ5OSwxMjczNTc4MjEsLTEzMjIxOTczMDQsMTI2MTkwNzE2
+OCw5MzQ0MDA1OTgsLTc0ODM5MzM0MywtMTkxNzk4ODUyM119
 -->
