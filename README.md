@@ -60,11 +60,11 @@ En ambas aplicaciones, se accedió a la base de datos inicializada en el Manejad
 
 ###  WEB
 - Mediar la comunicación entre usuario y negocio. 
-- Mostrar la página ágina de presentación con información sobre el negocio (landing page).
+- Mostrar la página de presentación con información sobre el negocio (*landing page*).
 -  Registrar usuarios en la base de datos para tener un registro de quienes compran los productos. 
 - Tras haberse registrado, el usuario puede ingresar a la plataforma para hacer pedidos. 
 - Un usuario puede hacer más de un pedido y en cada pedido puede pedir cuantos productos quiera. 
-- El usuario puede cerrar sus sesión.
+- El usuario puede cerrar su sesión.
 
 ![Imagen de la interfaz web de Tamalito](https://github.com/DiegoHuesos/ProyectoTamalito/blob/master/TamalitoWEB/images/GUI_WEB_Tamalito_Img.PNG)
 
@@ -90,8 +90,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWFsaXRvXG5hdXRob3
 I6IERpZWdvIEhlcm7DoW5kZXogRGVsZ2Fkb1xudGFnczogJ1JF
 QURNRSwgVGFtYWxpdG8sIFdQRiwgV0VCLCAuTkVULCBTUUxTZX
 J2ZXInXG5jYXRlZ29yaWVzOiAnV0VCLCAuTkVULCBBUFAnXG5k
-YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbLTEyNTQ3OD
-Q0MzYsLTU2Mzk3NjA0NiwtMTc3NzgxMDE3MSwtOTQ2MjM4NzEx
+YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbLTE2NzY0ND
+Y0OTEsLTU2Mzk3NjA0NiwtMTc3NzgxMDE3MSwtOTQ2MjM4NzEx
 LDg2NDM3Mzc0NiwxNzg1NDE3MzEsMTMxMzgwODc1NywtMjEyNT
 A4NTA4NCwtODM5ODUzNDk5LDEyNzM1NzgyMSwtMTMyMjE5NzMw
 NCwxMjYxOTA3MTY4LDkzNDQwMDU5OCwtNzQ4MzkzMzQzLC0xOT
