@@ -27,7 +27,7 @@ En ambas aplicaciones, se accedió a la base de datos inicializada en el Manejad
  2. Se debe abrir el proyecto de WPF y WEB en Visual Studio 2019. 
  3. Antes correr el proyecto, revisar la conexión para comprobar que está configurada correctamente. 
  4. Inicializar los proyectos, tanto WPF como WEB.
-
+![GUI_WPF_Tamalito_Image](https://github.com/DiegoHuesos/ProyectoTamalito/blob/master/TamalitoWPF/Tamalito/images/GUI_WPF_Tamalito_Img.PNG)
 ## Funcionalidades y características de la aplicación 
 ### WPF
 - Controlar el acceso a diferentes métodos dependiendo del tipo de usuario (dueño, gerente o empleado) .
@@ -113,6 +113,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWFsaXRvXG5hdXRob3
 I6IERpZWdvIEhlcm7DoW5kZXogRGVsZ2Fkb1xudGFnczogJ1JF
 QURNRSwgVGFtYWxpdG8sIFdQRiwgV0VCLCAuTkVULCBTUUxTZX
 J2ZXInXG5jYXRlZ29yaWVzOiAnV0VCLCAuTkVULCBBUFAnXG5k
-YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbLTc0ODM5Mz
-M0MywtMTkxNzk4ODUyM119
+YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbLTE3NzMxMz
+IxNjYsLTc0ODM5MzM0MywtMTkxNzk4ODUyM119
 -->
