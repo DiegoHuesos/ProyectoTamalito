@@ -19,6 +19,9 @@ Para la interfaz gráfica de usuario (GUI por sus siglas en inglés) de la **apl
 
 Por otro lado, el *frontend* de **aplicación WEB** se desarrolló con **HTML** para la estructura de los elemementos, **CSS** para el estilo y animaciones de la estructura, **Javascript** para integrar los mapas de Google, **.NET** como *framework* de Microsoft para el desarrollo integral y **C#** como lenguaje de programación para la lógica de la aplicación.
 
+En ambas aplicaciones, se accedió a la base de datos inicializada en el Manejador de Base de Datos (**DBMS** por sus siglas en inglés) conocido com Microsoft **SQLServer 2019 Developer** a través de un **driver** para poder agregar, modificar y borrar los registros. 
+![Diagrama Base de Datos Tamalito](https://github.com/DiegoHuesos/ProyectoTamalito/blob/master/BD_Tamalito/Diagrama_BD.png)
+
 #### Se crea el método para conectarse a la base de datos. Este está presente en todas las ventanas que lo necesitan.
 
     
@@ -29,18 +32,13 @@ Por otro lado, el *frontend* de **aplicación WEB** se desarrolló con **HTML** 
 		    conexion.Open();
 		    return conexion;
 	    } catch (Exception ex) {
-	    String respuesta = "Error" + ex;
-    
-    Response.Write(respuesta);
-    
-    return null;
-    
-    }
-    
+		    String respuesta = "Error" + ex;
+		    Response.Write(respuesta);
+		    return null;
+	    }
     }
 
-En ambas aplicaciones, se accedió a la base de datos inicializada en el Manejador de Base de Datos (**DBMS** por sus siglas en inglés) conocido com Microsoft **SQLServer 2019 Developer** a través de un **driver** para poder agregar, modificar y borrar los registros. 
-![Diagrama Base de Datos Tamalito](https://github.com/DiegoHuesos/ProyectoTamalito/blob/master/BD_Tamalito/Diagrama_BD.png)
+
 ## Sugerencias para la replicación e implementación
 
 > 1. Descargar o clonar el repositorio en un ordenador Windows.
@@ -89,9 +87,9 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWFsaXRvXG5hdXRob3
 I6IERpZWdvIEhlcm7DoW5kZXogRGVsZ2Fkb1xudGFnczogJ1JF
 QURNRSwgVGFtYWxpdG8sIFdQRiwgV0VCLCAuTkVULCBTUUxTZX
 J2ZXInXG5jYXRlZ29yaWVzOiAnV0VCLCAuTkVULCBBUFAnXG5k
-YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbLTIwOTIzOD
-MwNzcsLTE3Nzc4MTAxNzEsLTk0NjIzODcxMSw4NjQzNzM3NDYs
-MTc4NTQxNzMxLDEzMTM4MDg3NTcsLTIxMjUwODUwODQsLTgzOT
-g1MzQ5OSwxMjczNTc4MjEsLTEzMjIxOTczMDQsMTI2MTkwNzE2
-OCw5MzQ0MDA1OTgsLTc0ODM5MzM0MywtMTkxNzk4ODUyM119
+YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbLTgzNzkxMT
+k3NywtMTc3NzgxMDE3MSwtOTQ2MjM4NzExLDg2NDM3Mzc0Niwx
+Nzg1NDE3MzEsMTMxMzgwODc1NywtMjEyNTA4NTA4NCwtODM5OD
+UzNDk5LDEyNzM1NzgyMSwtMTMyMjE5NzMwNCwxMjYxOTA3MTY4
+LDkzNDQwMDU5OCwtNzQ4MzkzMzQzLC0xOTE3OTg4NTIzXX0=
 -->
