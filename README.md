@@ -20,7 +20,7 @@ Para la interfaz gráfica de usuario (GUI por sus siglas en inglés) de la **apl
 Por otro lado, el *frontend* de **aplicación WEB** se desarrolló con **HTML** para la estructura de los elemementos, **CSS** para el estilo y animaciones de la estructura, **Javascript** para integrar los mapas de Google, el framework de Microsoft **.NET** para el desarrollo integral y **C#** como lenguaje de programación para la lógica de la aplicación.
 
 En ambas aplicaciones, se accedió a la base de datos inicializada en el Manejador de Base de Datos (**DBMS** por sus siglas en inglés) conocido com Microsoft **SQLServer 2019 Developer** a través de un **driver** para poder agregar, modificar, borrar registros. 
-
+![Diagrama Base de Datos Tamalito](https://github.com/DiegoHuesos/ProyectoTamalito/blob/master/BD_Tamalito/Diagrama_BD.png)
 ## Sugerencias para la replicación e implementación
 
  1. Se debe inicializar la base de datos con el script proporcionado (ver sección 3.2) en SQL Server. 
@@ -128,8 +128,9 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWFsaXRvXG5hdXRob3
 I6IERpZWdvIEhlcm7DoW5kZXogRGVsZ2Fkb1xudGFnczogJ1JF
 QURNRSwgVGFtYWxpdG8sIFdQRiwgV0VCLCAuTkVULCBTUUxTZX
 J2ZXInXG5jYXRlZ29yaWVzOiAnV0VCLCAuTkVULCBBUFAnXG5k
-YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbMTc4NTQxNz
-MxLDEzMTM4MDg3NTcsLTIxMjUwODUwODQsLTgzOTg1MzQ5OSwx
-MjczNTc4MjEsLTEzMjIxOTczMDQsMTI2MTkwNzE2OCw5MzQ0MD
-A1OTgsLTc0ODM5MzM0MywtMTkxNzk4ODUyM119
+YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbODY0MzczNz
+Q2LDE3ODU0MTczMSwxMzEzODA4NzU3LC0yMTI1MDg1MDg0LC04
+Mzk4NTM0OTksMTI3MzU3ODIxLC0xMzIyMTk3MzA0LDEyNjE5MD
+cxNjgsOTM0NDAwNTk4LC03NDgzOTMzNDMsLTE5MTc5ODg1MjNd
+fQ==
 -->
