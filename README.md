@@ -60,20 +60,16 @@ En ambas aplicaciones, se accedió a la base de datos inicializada en el Manejad
 	- El gerente puede acceder a menos métodos que el dueño.
 	- El empleado común, únicamente, puede procesar los pedidos de los clientes. 
 
-## Trabajos relacionados
 
-Tamalito puede identificarse, desde la perepectiva de la aplicación web, con los sistemas en el que el usuario puede comunicarse, haciendo pedidos desde una página web, con un restaurante desde una ubicación remota como las aplicaciones de Dominoes, UberEats y Rappi.  
-
-Desde la perspectiva de la aplicación WPF, el proyecto puede identificarse con cualquier otro sistema de control centralizado de restaurantes restaurantes, ventas y administración de inventario.
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWFsaXRvXG5hdXRob3
 I6IERpZWdvIEhlcm7DoW5kZXogRGVsZ2Fkb1xudGFnczogJ1JF
 QURNRSwgVGFtYWxpdG8sIFdQRiwgV0VCLCAuTkVULCBTUUxTZX
 J2ZXInXG5jYXRlZ29yaWVzOiAnV0VCLCAuTkVULCBBUFAnXG5k
-YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbNDM2MDAwNj
-gsODY0MzczNzQ2LDE3ODU0MTczMSwxMzEzODA4NzU3LC0yMTI1
-MDg1MDg0LC04Mzk4NTM0OTksMTI3MzU3ODIxLC0xMzIyMTk3Mz
-A0LDEyNjE5MDcxNjgsOTM0NDAwNTk4LC03NDgzOTMzNDMsLTE5
-MTc5ODg1MjNdfQ==
+YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbLTk0NjIzOD
+cxMSw4NjQzNzM3NDYsMTc4NTQxNzMxLDEzMTM4MDg3NTcsLTIx
+MjUwODUwODQsLTgzOTg1MzQ5OSwxMjczNTc4MjEsLTEzMjIxOT
+czMDQsMTI2MTkwNzE2OCw5MzQ0MDA1OTgsLTc0ODM5MzM0Mywt
+MTkxNzk4ODUyM119
 -->
