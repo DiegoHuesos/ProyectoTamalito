@@ -52,8 +52,8 @@ En ambas aplicaciones, se accedió a la base de datos inicializada en el Manejad
 ### WPF
 - Controlar el acceso a diferentes métodos dependiendo del tipo de usuario (dueño, gerente o empleado) .
 - Permitir tomar una orden a cualquier tipo de usuario.
-- Permitirle únicamente al dueño y los gerentes dar de alta, de baja, o promover a un empleado.
-- Permitir que el dueño como los gerentes puedan añadir añadir inventario.
+- Permitir, únicamente al dueño y los gerentes, dar de alta, de baja, o promover a un empleado.
+- Permitir que el dueño y los gerentes puedan añadir inventario.
 - Permitir acceso y visualización de las ventas al dueño del negocio para analizar y/o alterar los costos de los productos.
 
 ![Imagen de la interfaz de escritorio WPF de Tamalito](https://github.com/DiegoHuesos/ProyectoTamalito/blob/master/TamalitoWPF/Tamalito/images/GUI_WPF_Tamalito_ulogin_Img.PNG)
@@ -90,10 +90,10 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWFsaXRvXG5hdXRob3
 I6IERpZWdvIEhlcm7DoW5kZXogRGVsZ2Fkb1xudGFnczogJ1JF
 QURNRSwgVGFtYWxpdG8sIFdQRiwgV0VCLCAuTkVULCBTUUxTZX
 J2ZXInXG5jYXRlZ29yaWVzOiAnV0VCLCAuTkVULCBBUFAnXG5k
-YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbLTEyNDA4OT
-EwMCwtNTYzOTc2MDQ2LC0xNzc3ODEwMTcxLC05NDYyMzg3MTEs
-ODY0MzczNzQ2LDE3ODU0MTczMSwxMzEzODA4NzU3LC0yMTI1MD
-g1MDg0LC04Mzk4NTM0OTksMTI3MzU3ODIxLC0xMzIyMTk3MzA0
-LDEyNjE5MDcxNjgsOTM0NDAwNTk4LC03NDgzOTMzNDMsLTE5MT
-c5ODg1MjNdfQ==
+YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbLTEyNTQ3OD
+Q0MzYsLTU2Mzk3NjA0NiwtMTc3NzgxMDE3MSwtOTQ2MjM4NzEx
+LDg2NDM3Mzc0NiwxNzg1NDE3MzEsMTMxMzgwODc1NywtMjEyNT
+A4NTA4NCwtODM5ODUzNDk5LDEyNzM1NzgyMSwtMTMyMjE5NzMw
+NCwxMjYxOTA3MTY4LDkzNDQwMDU5OCwtNzQ4MzkzMzQzLC0xOT
+E3OTg4NTIzXX0=
 -->
