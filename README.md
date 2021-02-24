@@ -24,9 +24,9 @@ En ambas aplicaciones, se accedió a la base de datos inicializada en el Manejad
 ## Sugerencias para la replicación e implementación
 
  1. Descargar o clonar el repositorio en un ordenador Windows.
- 2. Inicializar la base de datos con el [script de inicialización](https://github.com/DiegoHuesos/ProyectoTamalito/blob/master/BD_Tamalito/Inicializaci%C3%B3nBaseDeDatos.sql) en SQLServer 2019 Developer. 
- 3. Se debe abrir el proyecto de WPF y WEB en Visual Studio 2019. 
- 4. Antes correr el proyecto, revisar la conexión para comprobar que está configurada correctamente. 
+ 2. Inicializar la base de datos con el [script de inicialización](https://github.com/DiegoHuesos/ProyectoTamalito/blob/master/BD_Tamalito/Inicializaci%C3%B3nBaseDeDatos.sql) en SQLServer 2019. `enter code here`
+ 3. Abrir el proyecto de WPF y WEB en Visual Studio 2019. 
+ 4. Revisar la conexión con la base de datos para comprobar que esté configurada correctamente. 
  5. Inicializar los proyectos, tanto WPF como WEB.
  
 ## Funcionalidades y características de la aplicación 
@@ -68,9 +68,9 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWFsaXRvXG5hdXRob3
 I6IERpZWdvIEhlcm7DoW5kZXogRGVsZ2Fkb1xudGFnczogJ1JF
 QURNRSwgVGFtYWxpdG8sIFdQRiwgV0VCLCAuTkVULCBTUUxTZX
 J2ZXInXG5jYXRlZ29yaWVzOiAnV0VCLCAuTkVULCBBUFAnXG5k
-YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbMTQxOTU1NS
-wtOTQ2MjM4NzExLDg2NDM3Mzc0NiwxNzg1NDE3MzEsMTMxMzgw
-ODc1NywtMjEyNTA4NTA4NCwtODM5ODUzNDk5LDEyNzM1NzgyMS
-wtMTMyMjE5NzMwNCwxMjYxOTA3MTY4LDkzNDQwMDU5OCwtNzQ4
-MzkzMzQzLC0xOTE3OTg4NTIzXX0=
+YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbLTYzNzkwMD
+M1MCwtOTQ2MjM4NzExLDg2NDM3Mzc0NiwxNzg1NDE3MzEsMTMx
+MzgwODc1NywtMjEyNTA4NTA4NCwtODM5ODUzNDk5LDEyNzM1Nz
+gyMSwtMTMyMjE5NzMwNCwxMjYxOTA3MTY4LDkzNDQwMDU5OCwt
+NzQ4MzkzMzQzLC0xOTE3OTg4NTIzXX0=
 -->
