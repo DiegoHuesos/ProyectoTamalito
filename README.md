@@ -28,8 +28,6 @@ En ambas aplicaciones, se accedió a la base de datos inicializada en el Manejad
  3. Antes correr el proyecto, revisar la conexión para comprobar que está configurada correctamente. 
  4. Inicializar los proyectos, tanto WPF como WEB.
  
-![GUI_WPF_Tamalito_Image](https://github.com/DiegoHuesos/ProyectoTamalito/blob/master/TamalitoWPF/Tamalito/images/GUI_WPF_Tamalito_Img.PNG)
-
 ## Funcionalidades y características de la aplicación 
 ### WPF
 - Controlar el acceso a diferentes métodos dependiendo del tipo de usuario (dueño, gerente o empleado) .
@@ -45,6 +43,9 @@ En ambas aplicaciones, se accedió a la base de datos inicializada en el Manejad
 - Tras haberse registrado, el usuario puede ingresar a la plataforma para hacer pedidos. 
 - Un usuario puede hacer más de un pedido y en cada pedido puede pedir cuantos productos quiera. 
 - El usuario puede cerrar sus sesión.
+
+
+![GUI_WPF_Tamalito_Image](https://github.com/DiegoHuesos/ProyectoTamalito/blob/master/TamalitoWPF/Tamalito/images/GUI_WPF_Tamalito_Img.PNG)
 
 
 ## Restricciones 
@@ -115,6 +116,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWFsaXRvXG5hdXRob3
 I6IERpZWdvIEhlcm7DoW5kZXogRGVsZ2Fkb1xudGFnczogJ1JF
 QURNRSwgVGFtYWxpdG8sIFdQRiwgV0VCLCAuTkVULCBTUUxTZX
 J2ZXInXG5jYXRlZ29yaWVzOiAnV0VCLCAuTkVULCBBUFAnXG5k
-YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbOTM0NDAwNT
-k4LC03NDgzOTMzNDMsLTE5MTc5ODg1MjNdfQ==
+YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbMTI2MTkwNz
+E2OCw5MzQ0MDA1OTgsLTc0ODM5MzM0MywtMTkxNzk4ODUyM119
+
 -->
