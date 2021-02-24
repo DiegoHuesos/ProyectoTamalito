@@ -13,7 +13,7 @@ El desarrollo del proyecto se llevó a cabo como evidencia entregable para la ca
 - [José Carlos López]()
  - [Dra. Ana Lidia Franzoni](https://www.linkedin.com/in/ana-lidia-franzoni-5b19429)
  
-## Caracteristicas del software utilizado
+## Características del software utilizado
 
 Para la interfaz gráfica de usuario (GUI por sus siglas en inglés) de la **aplicación de escritorio** se utilizó el *framework* de Microsoft **WPF**, así mismo, se implementaron las librerías **MaterialDesign** y **MaterialColorDesign**, mientras que la lógica de programación se desarrolló en el lenguaje de programación **C#**. 
 
@@ -87,9 +87,9 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWFsaXRvXG5hdXRob3
 I6IERpZWdvIEhlcm7DoW5kZXogRGVsZ2Fkb1xudGFnczogJ1JF
 QURNRSwgVGFtYWxpdG8sIFdQRiwgV0VCLCAuTkVULCBTUUxTZX
 J2ZXInXG5jYXRlZ29yaWVzOiAnV0VCLCAuTkVULCBBUFAnXG5k
-YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbLTE4MzQ0OD
-A1MCwtMTc3NzgxMDE3MSwtOTQ2MjM4NzExLDg2NDM3Mzc0Niwx
-Nzg1NDE3MzEsMTMxMzgwODc1NywtMjEyNTA4NTA4NCwtODM5OD
-UzNDk5LDEyNzM1NzgyMSwtMTMyMjE5NzMwNCwxMjYxOTA3MTY4
-LDkzNDQwMDU5OCwtNzQ4MzkzMzQzLC0xOTE3OTg4NTIzXX0=
+YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbLTEzNzQ4ND
+YxOTgsLTE3Nzc4MTAxNzEsLTk0NjIzODcxMSw4NjQzNzM3NDYs
+MTc4NTQxNzMxLDEzMTM4MDg3NTcsLTIxMjUwODUwODQsLTgzOT
+g1MzQ5OSwxMjczNTc4MjEsLTEzMjIxOTczMDQsMTI2MTkwNzE2
+OCw5MzQ0MDA1OTgsLTc0ODM5MzM0MywtMTkxNzk4ODUyM119
 -->
