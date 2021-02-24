@@ -17,7 +17,7 @@ El desarrollo del proyecto se llevó a cabo como evidencia entregable para la ca
 
 Para la interfaz gráfica de usuario (GUI por sus siglas en inglés) de la **aplicación de escritorio** se utilizó el *framework* de Microsoft **WPF**, así mismo, se implementaron las librerías **MaterialDesign** y **MaterialColorDesign**, mientras que la lógica de programación se desarrolló en el lenguaje de programación **C#**. 
 
-Por otro lado, el *frontend* de **aplicación WEB** se desarrolló con **HTML** para la estructura de los elemementos, **CSS** para el estilo y animaciones de la estructura, **Javascript** para integrar los mapas de Google, **.NET** como *framework* de Microsoft para el desarrollo integral y **C#** como lenguaje de programación para la lógica de la aplicación.
+Por otro lado, el *frontend* de **aplicación WEB** se desarrolló con **HTML** para la estructura de los elemementos, **CSS** para el estilo y las animaciones, **Javascript** para integrar los mapas de Google, **.NET** como *framework* de Microsoft para el desarrollo integral y **C#** como lenguaje de programación para la lógica de la aplicación.
 
 En ambas aplicaciones, se accedió a la base de datos inicializada en el Manejador de Base de Datos (**DBMS** por sus siglas en inglés) conocido com Microsoft **SQLServer 2019 Developer** a través de un **driver** para poder agregar, modificar y borrar los registros. 
 ![Diagrama Base de Datos Tamalito](https://github.com/DiegoHuesos/ProyectoTamalito/blob/master/BD_Tamalito/Diagrama_BD.png)
@@ -87,9 +87,9 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWFsaXRvXG5hdXRob3
 I6IERpZWdvIEhlcm7DoW5kZXogRGVsZ2Fkb1xudGFnczogJ1JF
 QURNRSwgVGFtYWxpdG8sIFdQRiwgV0VCLCAuTkVULCBTUUxTZX
 J2ZXInXG5jYXRlZ29yaWVzOiAnV0VCLCAuTkVULCBBUFAnXG5k
-YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbLTEzNzQ4ND
-YxOTgsLTE3Nzc4MTAxNzEsLTk0NjIzODcxMSw4NjQzNzM3NDYs
-MTc4NTQxNzMxLDEzMTM4MDg3NTcsLTIxMjUwODUwODQsLTgzOT
-g1MzQ5OSwxMjczNTc4MjEsLTEzMjIxOTczMDQsMTI2MTkwNzE2
-OCw5MzQ0MDA1OTgsLTc0ODM5MzM0MywtMTkxNzk4ODUyM119
+YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbLTU2Mzk3Nj
+A0NiwtMTc3NzgxMDE3MSwtOTQ2MjM4NzExLDg2NDM3Mzc0Niwx
+Nzg1NDE3MzEsMTMxMzgwODc1NywtMjEyNTA4NTA4NCwtODM5OD
+UzNDk5LDEyNzM1NzgyMSwtMTMyMjE5NzMwNCwxMjYxOTA3MTY4
+LDkzNDQwMDU5OCwtNzQ4MzkzMzQzLC0xOTE3OTg4NTIzXX0=
 -->
