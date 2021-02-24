@@ -41,11 +41,11 @@ En ambas aplicaciones, se accedió a la base de datos inicializada en el Manejad
 
 ## Sugerencias para la replicación e implementación
 
-> 1. Descargar o clonar el repositorio en un ordenador Windows.
-> 2. Inicializar la base de datos con el [script de inicialización](https://github.com/DiegoHuesos/ProyectoTamalito/blob/master/BD_Tamalito/Inicializaci%C3%B3nBaseDeDatos.sql) en SQLServer 2019. 
- >3. Abrir el proyecto de WPF y WEB en Visual Studio 2019. 
- >4. Revisar la conexión con la base de datos para comprobar que esté configurada correctamente. 
-> 5. Inicializar los proyectos, tanto WPF como WEB.
+1. Descargar o clonar el repositorio en un ordenador Windows.
+2. Inicializar la base de datos con el [script de inicialización](https://github.com/DiegoHuesos/ProyectoTamalito/blob/master/BD_Tamalito/Inicializaci%C3%B3nBaseDeDatos.sql) en SQLServer 2019. 
+3. Abrir el proyecto de WPF y WEB en Visual Studio 2019. 
+4. Revisar la conexión con la base de datos para comprobar que esté configurada correctamente. 
+5. Inicializar los proyectos, tanto WPF como WEB.
 
  
 ## Funcionalidades y características de la aplicación 
@@ -74,11 +74,14 @@ En ambas aplicaciones, se accedió a la base de datos inicializada en el Manejad
 - El proyecto debe ser ejecutado en Visual Studio 2019 y debe estar habilitada la conexión con SQLServer. 
 - En la aplicación web:
 	- Los usuarios no puede registrar más de una cuenta por cada correo electrónico.
-	-  Al momento de realizar una orden, deben presionar dos botones, el primero para actualizar su orden y el segundo para confirmar la misma. 
+	-  Al momento de realizar una orden, deben presionar dos botones, el primero para actualizar su orden y el segundo para confirmar la misma.
+
 - En  la aplicación de escritorio:
 	- El dueño puede acceder a todos los métodos.
 	- El gerente puede acceder a menos métodos que el dueño.
-	- El empleado común, únicamente, puede procesar los pedidos de los clientes. 
+	- El empleado común, únicamente, puede procesar los pedidos de los clientes.
+
+ 
 
 
 
@@ -87,9 +90,10 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWFsaXRvXG5hdXRob3
 I6IERpZWdvIEhlcm7DoW5kZXogRGVsZ2Fkb1xudGFnczogJ1JF
 QURNRSwgVGFtYWxpdG8sIFdQRiwgV0VCLCAuTkVULCBTUUxTZX
 J2ZXInXG5jYXRlZ29yaWVzOiAnV0VCLCAuTkVULCBBUFAnXG5k
-YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbLTU2Mzk3Nj
-A0NiwtMTc3NzgxMDE3MSwtOTQ2MjM4NzExLDg2NDM3Mzc0Niwx
-Nzg1NDE3MzEsMTMxMzgwODc1NywtMjEyNTA4NTA4NCwtODM5OD
-UzNDk5LDEyNzM1NzgyMSwtMTMyMjE5NzMwNCwxMjYxOTA3MTY4
-LDkzNDQwMDU5OCwtNzQ4MzkzMzQzLC0xOTE3OTg4NTIzXX0=
+YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbLTEyNDA4OT
+EwMCwtNTYzOTc2MDQ2LC0xNzc3ODEwMTcxLC05NDYyMzg3MTEs
+ODY0MzczNzQ2LDE3ODU0MTczMSwxMzEzODA4NzU3LC0yMTI1MD
+g1MDg0LC04Mzk4NTM0OTksMTI3MzU3ODIxLC0xMzIyMTk3MzA0
+LDEyNjE5MDcxNjgsOTM0NDAwNTk4LC03NDgzOTMzNDMsLTE5MT
+c5ODg1MjNdfQ==
 -->
