@@ -36,7 +36,7 @@ En ambas aplicaciones, se accedió a la base de datos inicializada en el Manejad
 - Permitir que el dueño como los gerentes puedan añadir añadir inventario.
 - Permitir acceso y visualización de las ventas al dueño del negocio para analizar y/o alterar los costos de los productos.
 
-![Imagen de la interfaz dde Tamalito](https://github.com/DiegoHuesos/ProyectoTamalito/blob/master/TamalitoWPF/Tamalito/images/GUI_WPF_Tamalito_Img.PNG)
+![Imagen de la interfaz de escritorio WPF de Tamalito](https://github.com/DiegoHuesos/ProyectoTamalito/blob/master/TamalitoWPF/Tamalito/images/GUI_WPF_Tamalito_Img.PNG)
 
 ###  WEB
 - Mediar la comunicación entre usuario y negocio. 
@@ -117,7 +117,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWFsaXRvXG5hdXRob3
 I6IERpZWdvIEhlcm7DoW5kZXogRGVsZ2Fkb1xudGFnczogJ1JF
 QURNRSwgVGFtYWxpdG8sIFdQRiwgV0VCLCAuTkVULCBTUUxTZX
 J2ZXInXG5jYXRlZ29yaWVzOiAnV0VCLCAuTkVULCBBUFAnXG5k
-YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbMzg0OTk2Nz
-k1LDEyNjE5MDcxNjgsOTM0NDAwNTk4LC03NDgzOTMzNDMsLTE5
-MTc5ODg1MjNdfQ==
+YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbLTEzMjIxOT
+czMDQsMTI2MTkwNzE2OCw5MzQ0MDA1OTgsLTc0ODM5MzM0Mywt
+MTkxNzk4ODUyM119
 -->
