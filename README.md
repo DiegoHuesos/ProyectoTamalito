@@ -66,71 +66,14 @@ Tamalito puede identificarse, desde la perepectiva de la aplicación web, con lo
 
 Desde la perspectiva de la aplicación WPF, el proyecto puede identificarse con cualquier otro sistema de control centralizado de restaurantes restaurantes, ventas y administración de inventario.
 
-
-```flow
-st=>start: Start:>http://google.com[blank]
-e=>end:>http://google.com
-opl=>operation: My Operation
-subl=>subroutine: My Subroutine
-cond=>condition: Yes
-or No?:>http://google.com
-io=>inputoutput: catch something...
-
-st->opl->cond
-cond(yes)->io->e
-cond(no)->subl(right)->opl
-```
-
-
-
-
-
-
-## SmartyPants
-
-SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities. For example:
-
-|                |ASCII                          |HTML                         |
-|----------------|-------------------------------|-----------------------------|
-|Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
-|Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
-|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
-
-
-
-## UML diagrams
-
-You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
-
-```mermaid
-sequenceDiagram
-Alice ->> Bob: Hello Bob, how are you?
-Bob-->>John: How about you John?
-Bob--x Alice: I am good thanks!
-Bob-x John: I am good thanks!
-Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
-
-Bob-->Alice: Checking with John...
-Alice->John: Yes... John, how are you?
-```
-
-And this will produce a flow chart:
-
-```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
-```
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWFsaXRvXG5hdXRob3
 I6IERpZWdvIEhlcm7DoW5kZXogRGVsZ2Fkb1xudGFnczogJ1JF
 QURNRSwgVGFtYWxpdG8sIFdQRiwgV0VCLCAuTkVULCBTUUxTZX
 J2ZXInXG5jYXRlZ29yaWVzOiAnV0VCLCAuTkVULCBBUFAnXG5k
-YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbODY0MzczNz
-Q2LDE3ODU0MTczMSwxMzEzODA4NzU3LC0yMTI1MDg1MDg0LC04
-Mzk4NTM0OTksMTI3MzU3ODIxLC0xMzIyMTk3MzA0LDEyNjE5MD
-cxNjgsOTM0NDAwNTk4LC03NDgzOTMzNDMsLTE5MTc5ODg1MjNd
-fQ==
+YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbNDM2MDAwNj
+gsODY0MzczNzQ2LDE3ODU0MTczMSwxMzEzODA4NzU3LC0yMTI1
+MDg1MDg0LC04Mzk4NTM0OTksMTI3MzU3ODIxLC0xMzIyMTk3Mz
+A0LDEyNjE5MDcxNjgsOTM0NDAwNTk4LC03NDgzOTMzNDMsLTE5
+MTc5ODg1MjNdfQ==
 -->
