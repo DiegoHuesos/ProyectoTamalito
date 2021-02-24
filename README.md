@@ -45,8 +45,7 @@ En ambas aplicaciones, se accedió a la base de datos inicializada en el Manejad
 - Tras haberse registrado, el usuario puede ingresar a la plataforma para hacer pedidos. 
 - Un usuario puede hacer más de un pedido y en cada pedido puede pedir cuantos productos quiera. 
 - El usuario puede cerrar sus sesión.
-
-![Imagen de la interfaz web de Tamalito](https://github.com/DiegoHuesos/ProyectoTamalito/blob/master/TamalitoWEB/images/GUI_WEB_Tamalito_Img.PNG)
+![Imagen de la interfaz web de Tamalito](https://github.com/DiegoHuesos/ProyectoTamalito/blob/master/TamalitoWPF/Tamalito/images/GUI_WPF_Tamalito_ulogin_Img.PNG)
 
 
 ## Restricciones 
@@ -117,7 +116,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWFsaXRvXG5hdXRob3
 I6IERpZWdvIEhlcm7DoW5kZXogRGVsZ2Fkb1xudGFnczogJ1JF
 QURNRSwgVGFtYWxpdG8sIFdQRiwgV0VCLCAuTkVULCBTUUxTZX
 J2ZXInXG5jYXRlZ29yaWVzOiAnV0VCLCAuTkVULCBBUFAnXG5k
-YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbLTEzMjIxOT
-czMDQsMTI2MTkwNzE2OCw5MzQ0MDA1OTgsLTc0ODM5MzM0Mywt
-MTkxNzk4ODUyM119
+YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbMTI3MzU3OD
+IxLC0xMzIyMTk3MzA0LDEyNjE5MDcxNjgsOTM0NDAwNTk4LC03
+NDgzOTMzNDMsLTE5MTc5ODg1MjNdfQ==
 -->
