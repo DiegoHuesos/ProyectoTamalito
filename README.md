@@ -23,10 +23,11 @@ En ambas aplicaciones, se accedió a la base de datos inicializada en el Manejad
 ![Diagrama Base de Datos Tamalito](https://github.com/DiegoHuesos/ProyectoTamalito/blob/master/BD_Tamalito/Diagrama_BD.png)
 ## Sugerencias para la replicación e implementación
 
- 1. Se debe inicializar la base de datos con el script proporcionado (ver sección 3.2) en SQL Server. 
- 2. Se debe abrir el proyecto de WPF y WEB en Visual Studio 2019. 
- 3. Antes correr el proyecto, revisar la conexión para comprobar que está configurada correctamente. 
- 4. Inicializar los proyectos, tanto WPF como WEB.
+ 1. Descargar o clonar el repositorio en un ordenador Windows.
+ 2. Se debe inicializar la base de datos con el script proporcionado (ver sección 3.2) en SQL Server. 
+ 3. Se debe abrir el proyecto de WPF y WEB en Visual Studio 2019. 
+ 4. Antes correr el proyecto, revisar la conexión para comprobar que está configurada correctamente. 
+ 5. Inicializar los proyectos, tanto WPF como WEB.
  
 ## Funcionalidades y características de la aplicación 
 ### WPF
@@ -67,9 +68,9 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWFsaXRvXG5hdXRob3
 I6IERpZWdvIEhlcm7DoW5kZXogRGVsZ2Fkb1xudGFnczogJ1JF
 QURNRSwgVGFtYWxpdG8sIFdQRiwgV0VCLCAuTkVULCBTUUxTZX
 J2ZXInXG5jYXRlZ29yaWVzOiAnV0VCLCAuTkVULCBBUFAnXG5k
-YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbNDQ0NTc5Nj
-Y5LC05NDYyMzg3MTEsODY0MzczNzQ2LDE3ODU0MTczMSwxMzEz
-ODA4NzU3LC0yMTI1MDg1MDg0LC04Mzk4NTM0OTksMTI3MzU3OD
-IxLC0xMzIyMTk3MzA0LDEyNjE5MDcxNjgsOTM0NDAwNTk4LC03
-NDgzOTMzNDMsLTE5MTc5ODg1MjNdfQ==
+YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbMTI4OTM2NT
+gxOSwtOTQ2MjM4NzExLDg2NDM3Mzc0NiwxNzg1NDE3MzEsMTMx
+MzgwODc1NywtMjEyNTA4NTA4NCwtODM5ODUzNDk5LDEyNzM1Nz
+gyMSwtMTMyMjE5NzMwNCwxMjYxOTA3MTY4LDkzNDQwMDU5OCwt
+NzQ4MzkzMzQzLC0xOTE3OTg4NTIzXX0=
 -->
