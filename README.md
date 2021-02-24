@@ -1,7 +1,7 @@
 # Tamalito
-El presente proyecto está constituido por una aplicación web y una aplicación de escritorio que comparten acceso a una misma base de datos. 
+El presente proyecto está constituido por una aplicación web y una de escritorio que comparten acceso a una misma base de datos, es decir, una aplicación multiplataforma. 
 
-Esta aplicación multiplataforma permite realizar una orden de compra de tamales y atoles desde la página web como cliente, así como, registrar las ventas y administrar los inventarios en la aplicación de escritorio como empleado, gerente o dueño. 
+Esta aplicación permite realizar una orden de compra de tamales y atoles desde la página web como cliente, así como, registrar las ventas y administrar los inventarios en la aplicación de escritorio como empleado, gerente o dueño. 
 
 La presente propuesta de negocio acompañada de la solución tecnológica presente en este repositorio nació como respuesta a los altos precios de la cafetería del [Instituto Tecnológico Autónomo de México](itam.mx), así como, de la gran fascinación por la gastronomía mexicana popular por parte de los miembros de este equipo. 
 
@@ -67,9 +67,9 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWFsaXRvXG5hdXRob3
 I6IERpZWdvIEhlcm7DoW5kZXogRGVsZ2Fkb1xudGFnczogJ1JF
 QURNRSwgVGFtYWxpdG8sIFdQRiwgV0VCLCAuTkVULCBTUUxTZX
 J2ZXInXG5jYXRlZ29yaWVzOiAnV0VCLCAuTkVULCBBUFAnXG5k
-YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbLTk0NjIzOD
-cxMSw4NjQzNzM3NDYsMTc4NTQxNzMxLDEzMTM4MDg3NTcsLTIx
-MjUwODUwODQsLTgzOTg1MzQ5OSwxMjczNTc4MjEsLTEzMjIxOT
-czMDQsMTI2MTkwNzE2OCw5MzQ0MDA1OTgsLTc0ODM5MzM0Mywt
-MTkxNzk4ODUyM119
+YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbMTYxNTMzMD
+k4NCwtOTQ2MjM4NzExLDg2NDM3Mzc0NiwxNzg1NDE3MzEsMTMx
+MzgwODc1NywtMjEyNTA4NTA4NCwtODM5ODUzNDk5LDEyNzM1Nz
+gyMSwtMTMyMjE5NzMwNCwxMjYxOTA3MTY4LDkzNDQwMDU5OCwt
+NzQ4MzkzMzQzLC0xOTE3OTg4NTIzXX0=
 -->
