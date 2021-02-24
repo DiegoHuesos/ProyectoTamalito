@@ -17,9 +17,9 @@ El desarrollo del proyecto se llevó a cabo como evidencia entregable para la ca
 
 Para la interfaz gráfica de usuario (GUI por sus siglas en inglés) de la **aplicación de escritorio** se utilizó el *framework* de Microsoft **WPF**, así mismo, se implementaron las librerías **MaterialDesign** y **MaterialColorDesign**, mientras que la lógica de programación se desarrolló en el lenguaje de programación **C#**. 
 
-Por otro lado, el *frontend* de **aplicación WEB** se desarrolló con **HTML** para la estructura de los elemementos, **CSS** para el estilo y animaciones de la estructura, **Javascript** para integrar los mapas de Google, el framework de Microsoft **.NET** para el desarrollo integral y **C#** como lenguaje de programación para la lógica de la aplicación.
+Por otro lado, el *frontend* de **aplicación WEB** se desarrolló con **HTML** para la estructura de los elemementos, **CSS** para el estilo y animaciones de la estructura, **Javascript** para integrar los mapas de Google, **.NET** como *framework* de Microsoft para el desarrollo integral y **C#** como lenguaje de programación para la lógica de la aplicación.
 
-En ambas aplicaciones, se accedió a la base de datos inicializada en el Manejador de Base de Datos (**DBMS** por sus siglas en inglés) conocido com Microsoft **SQLServer 2019 Developer** a través de un **driver** para poder agregar, modificar, borrar registros. 
+En ambas aplicaciones, se accedió a la base de datos inicializada en el Manejador de Base de Datos (**DBMS** por sus siglas en inglés) conocido com Microsoft **SQLServer 2019 Developer** a través de un **driver** para poder agregar, modificar y borrar los registros. 
 ![Diagrama Base de Datos Tamalito](https://github.com/DiegoHuesos/ProyectoTamalito/blob/master/BD_Tamalito/Diagrama_BD.png)
 ## Sugerencias para la replicación e implementación
 
@@ -67,9 +67,9 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWFsaXRvXG5hdXRob3
 I6IERpZWdvIEhlcm7DoW5kZXogRGVsZ2Fkb1xudGFnczogJ1JF
 QURNRSwgVGFtYWxpdG8sIFdQRiwgV0VCLCAuTkVULCBTUUxTZX
 J2ZXInXG5jYXRlZ29yaWVzOiAnV0VCLCAuTkVULCBBUFAnXG5k
-YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbLTgxMzgyMD
-MwMSwtOTQ2MjM4NzExLDg2NDM3Mzc0NiwxNzg1NDE3MzEsMTMx
-MzgwODc1NywtMjEyNTA4NTA4NCwtODM5ODUzNDk5LDEyNzM1Nz
-gyMSwtMTMyMjE5NzMwNCwxMjYxOTA3MTY4LDkzNDQwMDU5OCwt
-NzQ4MzkzMzQzLC0xOTE3OTg4NTIzXX0=
+YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbNDQ0NTc5Nj
+Y5LC05NDYyMzg3MTEsODY0MzczNzQ2LDE3ODU0MTczMSwxMzEz
+ODA4NzU3LC0yMTI1MDg1MDg0LC04Mzk4NTM0OTksMTI3MzU3OD
+IxLC0xMzIyMTk3MzA0LDEyNjE5MDcxNjgsOTM0NDAwNTk4LC03
+NDgzOTMzNDMsLTE5MTc5ODg1MjNdfQ==
 -->
