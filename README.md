@@ -64,7 +64,7 @@ A continuación, se muestra el código en el que se crea el método para conecta
 - Mostrar la página de presentación con información sobre el negocio (*landing page*).
 -  Registrar usuarios en la base de datos para tener un registro de quienes compran los productos. 
 - Ingresar a la plataforma como usuario para hacer pedidos. 
-- Hacer más de un pedido como usuario y en cada pedido  pedir cuantos productos desee. 
+- Hacer más de un pedido como usuario y en cada pedido  pedir cuantos productos deseé. 
 - Cerrar su sesión como usuario.
 
 ![Imagen de la interfaz web de Tamalito](https://github.com/DiegoHuesos/ProyectoTamalito/blob/master/TamalitoWEB/images/GUI_WEB_Tamalito_Img.PNG)
@@ -91,11 +91,11 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWFsaXRvXG5hdXRob3
 I6IERpZWdvIEhlcm7DoW5kZXogRGVsZ2Fkb1xudGFnczogJ1JF
 QURNRSwgVGFtYWxpdG8sIFdQRiwgV0VCLCAuTkVULCBTUUxTZX
 J2ZXInXG5jYXRlZ29yaWVzOiAnV0VCLCAuTkVULCBBUFAnXG5k
-YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbMjEyMDI1Nz
-UzLC05ODA0NDY4MjcsNjE0NDc1NDA1LC0xMjczOTE1NDQyLC0x
-Njc2NDQ2NDkxLC01NjM5NzYwNDYsLTE3Nzc4MTAxNzEsLTk0Nj
-IzODcxMSw4NjQzNzM3NDYsMTc4NTQxNzMxLDEzMTM4MDg3NTcs
-LTIxMjUwODUwODQsLTgzOTg1MzQ5OSwxMjczNTc4MjEsLTEzMj
-IxOTczMDQsMTI2MTkwNzE2OCw5MzQ0MDA1OTgsLTc0ODM5MzM0
-MywtMTkxNzk4ODUyM119
+YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbMjEwODU3NT
+YzNywyMTIwMjU3NTMsLTk4MDQ0NjgyNyw2MTQ0NzU0MDUsLTEy
+NzM5MTU0NDIsLTE2NzY0NDY0OTEsLTU2Mzk3NjA0NiwtMTc3Nz
+gxMDE3MSwtOTQ2MjM4NzExLDg2NDM3Mzc0NiwxNzg1NDE3MzEs
+MTMxMzgwODc1NywtMjEyNTA4NTA4NCwtODM5ODUzNDk5LDEyNz
+M1NzgyMSwtMTMyMjE5NzMwNCwxMjYxOTA3MTY4LDkzNDQwMDU5
+OCwtNzQ4MzkzMzQzLC0xOTE3OTg4NTIzXX0=
 -->
