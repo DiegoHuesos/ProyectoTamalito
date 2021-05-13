@@ -23,7 +23,7 @@ En ambas aplicaciones, se accedió a la base de datos inicializada en el Manejad
 ### Diagrama de base de datos
 ![Diagrama Base de Datos Tamalito](https://github.com/DiegoHuesos/ProyectoTamalito/blob/master/BD_Tamalito/Diagrama_BD.png)
 
-#### A continuación, se muestra el código en el que se crea el método para conectar las aplicaciones con la base de datos. Éste está presente en todas las ventanas que lo necesitan (log-in, inventario, compra, etc.).
+A continuación, se muestra el código en el que se crea el método para conectar las aplicaciones con la base de datos. Éste está presente en todas las ventanas que lo necesitan (log-in, inventario, compra, etc.).
 
     
     protected OdbcConnection conectarBD() { 
@@ -91,10 +91,11 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWFsaXRvXG5hdXRob3
 I6IERpZWdvIEhlcm7DoW5kZXogRGVsZ2Fkb1xudGFnczogJ1JF
 QURNRSwgVGFtYWxpdG8sIFdQRiwgV0VCLCAuTkVULCBTUUxTZX
 J2ZXInXG5jYXRlZ29yaWVzOiAnV0VCLCAuTkVULCBBUFAnXG5k
-YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbNjE0NDc1ND
-A1LC0xMjczOTE1NDQyLC0xNjc2NDQ2NDkxLC01NjM5NzYwNDYs
-LTE3Nzc4MTAxNzEsLTk0NjIzODcxMSw4NjQzNzM3NDYsMTc4NT
-QxNzMxLDEzMTM4MDg3NTcsLTIxMjUwODUwODQsLTgzOTg1MzQ5
-OSwxMjczNTc4MjEsLTEzMjIxOTczMDQsMTI2MTkwNzE2OCw5Mz
-Q0MDA1OTgsLTc0ODM5MzM0MywtMTkxNzk4ODUyM119
+YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbMTcyNDUzNz
+U5NSw2MTQ0NzU0MDUsLTEyNzM5MTU0NDIsLTE2NzY0NDY0OTEs
+LTU2Mzk3NjA0NiwtMTc3NzgxMDE3MSwtOTQ2MjM4NzExLDg2ND
+M3Mzc0NiwxNzg1NDE3MzEsMTMxMzgwODc1NywtMjEyNTA4NTA4
+NCwtODM5ODUzNDk5LDEyNzM1NzgyMSwtMTMyMjE5NzMwNCwxMj
+YxOTA3MTY4LDkzNDQwMDU5OCwtNzQ4MzkzMzQzLC0xOTE3OTg4
+NTIzXX0=
 -->
