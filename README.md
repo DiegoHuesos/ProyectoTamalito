@@ -3,7 +3,7 @@ Esta aplicación permite realizar una orden de compra de tamales y atoles desde 
 
 Este proyecto está constituido por una aplicación web y de escritorio que comparten acceso a una misma base de datos, es decir, una aplicación multiplataforma. 
 
-La propuesta de negocio acompañada de la solución tecnológica presente en este repositorio nació como respuesta a los altos precios de la cafetería del [ITAM](itam.mx), así como, de la gran fascinación por la gastronomía mexicana popular por parte de los miembros de este equipo. 
+La propuesta de negocio acompañada de la solución tecnológica presente en este repositorio nació como respuesta a los altos precios de la cafetería del [ITAM](itam.mx), así como de la gran fascinación por la gastronomía mexicana popular por parte de los miembros de este equipo. 
 
 El desarrollo del proyecto se llevó a cabo como evidencia entregable para la calificación de la materia de Desarrollo de Aplicaciones Informáticas impartida por la [Dra. Ana Lidia Franzoni](https://www.linkedin.com/in/ana-lidia-franzoni-5b19429) en el  [Instituto Tecnológico Autónomo de México](itam.mx).
 
@@ -13,7 +13,7 @@ El desarrollo del proyecto se llevó a cabo como evidencia entregable para la ca
 - [José Carlos López]()
  - [Dra. Ana Lidia Franzoni](https://www.linkedin.com/in/ana-lidia-franzoni-5b19429)
  
-## Características del software utilizado
+## Características del software
 
 Para la interfaz gráfica de usuario (GUI por sus siglas en inglés) de la **aplicación de escritorio** se utilizó el *framework* de Microsoft **WPF**, así mismo, se implementaron las librerías **MaterialDesign** y **MaterialColorDesign**, mientras que la lógica de programación se desarrolló en el lenguaje de programación **C#**. 
 
@@ -90,10 +90,10 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWFsaXRvXG5hdXRob3
 I6IERpZWdvIEhlcm7DoW5kZXogRGVsZ2Fkb1xudGFnczogJ1JF
 QURNRSwgVGFtYWxpdG8sIFdQRiwgV0VCLCAuTkVULCBTUUxTZX
 J2ZXInXG5jYXRlZ29yaWVzOiAnV0VCLCAuTkVULCBBUFAnXG5k
-YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbNjgyMjQ4OT
-E3LC0xNjc2NDQ2NDkxLC01NjM5NzYwNDYsLTE3Nzc4MTAxNzEs
-LTk0NjIzODcxMSw4NjQzNzM3NDYsMTc4NTQxNzMxLDEzMTM4MD
-g3NTcsLTIxMjUwODUwODQsLTgzOTg1MzQ5OSwxMjczNTc4MjEs
-LTEzMjIxOTczMDQsMTI2MTkwNzE2OCw5MzQ0MDA1OTgsLTc0OD
-M5MzM0MywtMTkxNzk4ODUyM119
+YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbMTM3NTQ2NT
+ExNCwtMTY3NjQ0NjQ5MSwtNTYzOTc2MDQ2LC0xNzc3ODEwMTcx
+LC05NDYyMzg3MTEsODY0MzczNzQ2LDE3ODU0MTczMSwxMzEzOD
+A4NzU3LC0yMTI1MDg1MDg0LC04Mzk4NTM0OTksMTI3MzU3ODIx
+LC0xMzIyMTk3MzA0LDEyNjE5MDcxNjgsOTM0NDAwNTk4LC03ND
+gzOTMzNDMsLTE5MTc5ODg1MjNdfQ==
 -->
