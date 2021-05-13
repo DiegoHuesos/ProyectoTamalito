@@ -52,10 +52,10 @@ A continuación, se muestra el código en el que se crea el método para conecta
 ## Funcionalidades y características de la aplicación 
 ### WPF
 - Controlar el acceso a diferentes métodos dependiendo del tipo de usuario (dueño, gerente o empleado) .
-- Permitir tomar una orden a cualquier tipo de usuario.
-- Permitir, únicamente al dueño y los gerentes, dar de alta, de baja, o promover a un empleado.
-- Permitir que el dueño y los gerentes puedan añadir inventario.
-- Permitir acceso y visualización de las ventas al dueño del negocio para analizar y/o alterar los costos de los productos.
+- Tomar una orden a cualquier tipo de usuario.
+- Dar de alta, únicamente al dueño y los gerentes,  de baja, o promover a un empleado.
+- Añadir inventario por el dueño y los gerentes puedan .
+- Visualizar a las ventas al dueño del negocio para analizar y/o alterar los costos de los productos.
 
 ![Imagen de la interfaz de escritorio WPF de Tamalito](https://github.com/DiegoHuesos/ProyectoTamalito/blob/master/TamalitoWPF/Tamalito/images/GUI_WPF_Tamalito_ulogin_Img.PNG)
 
@@ -91,8 +91,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWFsaXRvXG5hdXRob3
 I6IERpZWdvIEhlcm7DoW5kZXogRGVsZ2Fkb1xudGFnczogJ1JF
 QURNRSwgVGFtYWxpdG8sIFdQRiwgV0VCLCAuTkVULCBTUUxTZX
 J2ZXInXG5jYXRlZ29yaWVzOiAnV0VCLCAuTkVULCBBUFAnXG5k
-YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbMTcyNDUzNz
-U5NSw2MTQ0NzU0MDUsLTEyNzM5MTU0NDIsLTE2NzY0NDY0OTEs
+YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbLTk4MDQ0Nj
+gyNyw2MTQ0NzU0MDUsLTEyNzM5MTU0NDIsLTE2NzY0NDY0OTEs
 LTU2Mzk3NjA0NiwtMTc3NzgxMDE3MSwtOTQ2MjM4NzExLDg2ND
 M3Mzc0NiwxNzg1NDE3MzEsMTMxMzgwODc1NywtMjEyNTA4NTA4
 NCwtODM5ODUzNDk5LDEyNzM1NzgyMSwtMTMyMjE5NzMwNCwxMj
