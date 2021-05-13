@@ -15,7 +15,7 @@ El desarrollo del proyecto se llevó a cabo como evidencia entregable para la ca
  
 ## Características del software
 
-Para la interfaz gráfica de usuario (GUI por sus siglas en inglés) de la **aplicación de escritorio** se utilizó el *framework* de Microsoft **WPF**, así mismo, se implementaron las librerías **MaterialDesign** y **MaterialColorDesign**, mientras que la lógica de programación se desarrolló en el lenguaje de programación **C#**. 
+Para la interfaz gráfica de usuario (GUI por sus siglas en inglés) de la aplicación de escritorio se utilizó el *framework* de Microsoft WPF, así mismo, se implementaron las librerías MaterialDesign y MaterialColorDesign, mientras que la lógica de programación se desarrolló en el lenguaje de programación C#. 
 
 Por otro lado, el *frontend* de **aplicación WEB** se desarrolló con **HTML** para la estructura de los elemementos, **CSS** para el estilo y las animaciones, **Javascript** para integrar los mapas de Google, **.NET** como *framework* de Microsoft para el desarrollo integral y **C#** como lenguaje de programación para la lógica de la aplicación.
 
@@ -90,8 +90,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWFsaXRvXG5hdXRob3
 I6IERpZWdvIEhlcm7DoW5kZXogRGVsZ2Fkb1xudGFnczogJ1JF
 QURNRSwgVGFtYWxpdG8sIFdQRiwgV0VCLCAuTkVULCBTUUxTZX
 J2ZXInXG5jYXRlZ29yaWVzOiAnV0VCLCAuTkVULCBBUFAnXG5k
-YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbMTM3NTQ2NT
-ExNCwtMTY3NjQ0NjQ5MSwtNTYzOTc2MDQ2LC0xNzc3ODEwMTcx
+YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbLTc0OTc2Mz
+g3OCwtMTY3NjQ0NjQ5MSwtNTYzOTc2MDQ2LC0xNzc3ODEwMTcx
 LC05NDYyMzg3MTEsODY0MzczNzQ2LDE3ODU0MTczMSwxMzEzOD
 A4NzU3LC0yMTI1MDg1MDg0LC04Mzk4NTM0OTksMTI3MzU3ODIx
 LC0xMzIyMTk3MzA0LDEyNjE5MDcxNjgsOTM0NDAwNTk4LC03ND
