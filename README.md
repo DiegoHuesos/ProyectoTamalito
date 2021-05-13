@@ -1,5 +1,5 @@
 # Tamalito
-El presente proyecto está constituido por una aplicación web y de escritorio que comparten acceso a una misma base de datos, es decir, una aplicación multiplataforma. 
+Este proyecto está constituido por una aplicación web y de escritorio que comparten acceso a una misma base de datos, es decir, una aplicación multiplataforma. 
 
 Esta aplicación permite realizar una orden de compra de tamales y atoles desde la página web como cliente, así como, registrar las ventas y administrar los inventarios desde la aplicación de escritorio como usuario de tipo empleado, gerente o dueño. 
 
@@ -90,10 +90,10 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWFsaXRvXG5hdXRob3
 I6IERpZWdvIEhlcm7DoW5kZXogRGVsZ2Fkb1xudGFnczogJ1JF
 QURNRSwgVGFtYWxpdG8sIFdQRiwgV0VCLCAuTkVULCBTUUxTZX
 J2ZXInXG5jYXRlZ29yaWVzOiAnV0VCLCAuTkVULCBBUFAnXG5k
-YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbLTE2NzY0ND
-Y0OTEsLTU2Mzk3NjA0NiwtMTc3NzgxMDE3MSwtOTQ2MjM4NzEx
-LDg2NDM3Mzc0NiwxNzg1NDE3MzEsMTMxMzgwODc1NywtMjEyNT
-A4NTA4NCwtODM5ODUzNDk5LDEyNzM1NzgyMSwtMTMyMjE5NzMw
-NCwxMjYxOTA3MTY4LDkzNDQwMDU5OCwtNzQ4MzkzMzQzLC0xOT
-E3OTg4NTIzXX0=
+YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbMTE3ODI0Mz
+Q4MywtMTY3NjQ0NjQ5MSwtNTYzOTc2MDQ2LC0xNzc3ODEwMTcx
+LC05NDYyMzg3MTEsODY0MzczNzQ2LDE3ODU0MTczMSwxMzEzOD
+A4NzU3LC0yMTI1MDg1MDg0LC04Mzk4NTM0OTksMTI3MzU3ODIx
+LC0xMzIyMTk3MzA0LDEyNjE5MDcxNjgsOTM0NDAwNTk4LC03ND
+gzOTMzNDMsLTE5MTc5ODg1MjNdfQ==
 -->
