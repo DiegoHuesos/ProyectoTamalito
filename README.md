@@ -20,6 +20,7 @@ Para la interfaz gráfica de usuario (GUI por sus siglas en inglés) de la aplic
 Por otro lado, el frontend de aplicación WEB se desarrolló con HTML para la estructura de los elemementos, CSS para el estilo y las animaciones, Javascript para integrar los mapas de Google, .NET como framework de Microsoft para el desarrollo integral y C# como lenguaje de programación para la lógica de la aplicación.
 
 En ambas aplicaciones, se accedió a la base de datos inicializada en el Manejador de Base de Datos (DBMS por sus siglas en inglés) conocido com Microsoft SQLServer 2019 Developer a través de un driver para poder agregar, modificar y borrar los registros. 
+### Diagrama de base de datos
 ![Diagrama Base de Datos Tamalito](https://github.com/DiegoHuesos/ProyectoTamalito/blob/master/BD_Tamalito/Diagrama_BD.png)
 
 #### A continuación, se muestra el código en el que se crea el método para conectar las aplicaciones con la base de datos. Éste está presente en todas las ventanas que lo necesitan (log-in, inventario, compra, etc.).
@@ -90,10 +91,10 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWFsaXRvXG5hdXRob3
 I6IERpZWdvIEhlcm7DoW5kZXogRGVsZ2Fkb1xudGFnczogJ1JF
 QURNRSwgVGFtYWxpdG8sIFdQRiwgV0VCLCAuTkVULCBTUUxTZX
 J2ZXInXG5jYXRlZ29yaWVzOiAnV0VCLCAuTkVULCBBUFAnXG5k
-YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbLTEyNzM5MT
-U0NDIsLTE2NzY0NDY0OTEsLTU2Mzk3NjA0NiwtMTc3NzgxMDE3
-MSwtOTQ2MjM4NzExLDg2NDM3Mzc0NiwxNzg1NDE3MzEsMTMxMz
-gwODc1NywtMjEyNTA4NTA4NCwtODM5ODUzNDk5LDEyNzM1Nzgy
-MSwtMTMyMjE5NzMwNCwxMjYxOTA3MTY4LDkzNDQwMDU5OCwtNz
-Q4MzkzMzQzLC0xOTE3OTg4NTIzXX0=
+YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbNjE0NDc1ND
+A1LC0xMjczOTE1NDQyLC0xNjc2NDQ2NDkxLC01NjM5NzYwNDYs
+LTE3Nzc4MTAxNzEsLTk0NjIzODcxMSw4NjQzNzM3NDYsMTc4NT
+QxNzMxLDEzMTM4MDg3NTcsLTIxMjUwODUwODQsLTgzOTg1MzQ5
+OSwxMjczNTc4MjEsLTEzMjIxOTczMDQsMTI2MTkwNzE2OCw5Mz
+Q0MDA1OTgsLTc0ODM5MzM0MywtMTkxNzk4ODUyM119
 -->
