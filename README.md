@@ -1,101 +1,25 @@
-# Tamalito
-Esta aplicación permite realizar una orden de compra de tamales y atoles desde la página web como cliente, así como, registrar las ventas y administrar los inventarios desde la aplicación de escritorio como usuario de tipo empleado, gerente o dueño. 
+# Proyecto Tamalito
 
-Este proyecto está constituido por una aplicación web y de escritorio que comparten acceso a una misma base de datos, es decir, una aplicación multiplataforma. 
+An ITAM team project with two apps for a fictional tamale and atole shop. Customers place orders on the web, while employees, managers, and owners use a Windows desktop app to record sales and manage inventory. Both apps share a SQL Server database.
 
-La propuesta de negocio acompañada de la solución tecnológica presente en este repositorio nació como respuesta a los altos precios de la cafetería del [ITAM](itam.mx), así como de la gran fascinación por la gastronomía mexicana popular por parte de los miembros de este equipo. 
+## Repository tour
 
-El desarrollo del proyecto se llevó a cabo como evidencia entregable para la calificación de la materia de Desarrollo de Aplicaciones Informáticas impartida por la [Dra. Ana Lidia Franzoni](https://www.linkedin.com/in/ana-lidia-franzoni-5b19429) en el  [Instituto Tecnológico Autónomo de México](itam.mx).
+| Directory | What it contains |
+| --- | --- |
+| [TamalitoWEB](TamalitoWEB/) | Customer ordering site built with .NET, C#, HTML, CSS, and JavaScript. |
+| [TamalitoWPF](TamalitoWPF/) | Sales and inventory desktop app built with C#, WPF, and Material Design libraries. |
+| [BD_Tamalito](BD_Tamalito/) | Database materials, including the [schema diagram](BD_Tamalito/Diagrama_BD.png). |
 
-## Equipo de desarrollo
-- [Digeo Hernández Delgado](https://github.com/DiegoHuesos)
-- [Ángel Zatarain López](https://github.com/angelzatarain)
-- [José Carlos López]()
- - [Dra. Ana Lidia Franzoni](https://www.linkedin.com/in/ana-lidia-franzoni-5b19429)
- 
-## Características del software
+## Exploring the project
 
-Para la interfaz gráfica de usuario (GUI por sus siglas en inglés) de la aplicación de escritorio se utilizó el *framework* de Microsoft WPF, así mismo, se implementaron las librerías MaterialDesign y MaterialColorDesign, mientras que la lógica de programación se desarrolló en el lenguaje de programación C#. 
+Start with the database diagram to see what the two apps share. Then compare the ordering workflow in the web app with the sales and inventory workflows in the desktop app.
 
-Por otro lado, el frontend de aplicación WEB se desarrolló con HTML para la estructura de los elemementos, CSS para el estilo y las animaciones, Javascript para integrar los mapas de Google, .NET como framework de Microsoft para el desarrollo integral y C# como lenguaje de programación para la lógica de la aplicación.
+This is an academic project. A local build would require Windows for WPF, compatible .NET tooling, and a locally configured SQL Server database. The original environment used SQL Server 2019 Developer. A current end-to-end setup has not been verified.
 
-En ambas aplicaciones, se accedió a la base de datos inicializada en el Manejador de Base de Datos (DBMS por sus siglas en inglés) conocido com Microsoft SQLServer 2019 Developer a través de un driver para poder agregar, modificar y borrar los registros. 
-### Diagrama de base de datos
-![Diagrama Base de Datos Tamalito](https://github.com/DiegoHuesos/ProyectoTamalito/blob/master/BD_Tamalito/Diagrama_BD.png)
+## Credits
 
-A continuación, se muestra el código en el que se crea el método para conectar las aplicaciones con la base de datos. Éste está presente en todas las ventanas que lo necesitan (log-in, inventario, compra, etc.).
+Built for the Desarrollo de Aplicaciones Informáticas course at Instituto Tecnológico Autónomo de México (ITAM) by [Diego Hernández Delgado](https://github.com/DiegoHuesos), [Ángel Zatarain López](https://github.com/angelzatarain), and José Carlos López, with instruction from [Dra. Ana Lidia Franzoni](https://www.linkedin.com/in/ana-lidia-franzoni-5b19429).
 
-    
-    protected OdbcConnection conectarBD() { 
-	    String stringConexion = "Driver={SQL Server Native Client 11.0};Server=localhost;Uid=sa;Pwd=sqladmin;Database=tamalito";
-	    try {
-		    OdbcConnection conexion = new OdbcConnection(stringConexion);
-		    conexion.Open();
-		    return conexion;
-	    } catch (Exception ex) {
-		    String respuesta = "Error" + ex;
-		    Response.Write(respuesta);
-		    return null;
-	    }
-    }
+## License
 
-
-## Sugerencias para la replicación e implementación
-
-1. Descargar o clonar el repositorio en un ordenador Windows.
-2. Inicializar la base de datos con el [script de inicialización](https://github.com/DiegoHuesos/ProyectoTamalito/blob/master/BD_Tamalito/Inicializaci%C3%B3nBaseDeDatos.sql) en SQLServer 2019. 
-3. Abrir el proyecto de WPF y WEB en Visual Studio 2019. 
-4. Revisar la conexión con la base de datos para comprobar que esté configurada correctamente. 
-5. Inicializar los proyectos, tanto WPF como WEB.
-
- 
-## Funcionalidades y características de la aplicación 
-### WPF
-- Controlar el acceso a diferentes métodos dependiendo del tipo de usuario (dueño, gerente o empleado) .
-- Tomar una orden a cualquier tipo de usuario.
-- Dar de alta, únicamente al dueño y los gerentes,  de baja, o promover a un empleado.
-- Añadir inventario por el dueño y los gerentes puedan .
-- Visualizar a las ventas al dueño del negocio para analizar y/o alterar los costos de los productos.
-
-![Imagen de la interfaz de escritorio WPF de Tamalito](https://github.com/DiegoHuesos/ProyectoTamalito/blob/master/TamalitoWPF/Tamalito/images/GUI_WPF_Tamalito_ulogin_Img.PNG)
-
-###  WEB
-- Mediar la comunicación entre usuario y negocio. 
-- Mostrar la página de presentación con información sobre el negocio (*landing page*).
--  Registrar usuarios en la base de datos para tener un registro de quienes compran los productos. 
-- Ingresar a la plataforma como usuario para hacer pedidos. 
-- Hacer más de un pedido como usuario y en cada pedido  pedir cuantos productos deseé. 
-- Cerrar su sesión como usuario.
-
-![Imagen de la interfaz web de Tamalito](https://github.com/DiegoHuesos/ProyectoTamalito/blob/master/TamalitoWEB/images/GUI_WEB_Tamalito_Img.PNG)
-
-
-## Restricciones 
-
-- El proyecto debe ser ejecutado en Visual Studio 2019 y debe estar habilitada la conexión con SQLServer. 
-- En la aplicación web:
-	- Los usuarios no puede registrar más de una cuenta por cada correo electrónico.
-	-  Al momento de realizar una orden, deben presionar dos botones, el primero para actualizar su orden y el segundo para confirmar la misma.
-
-- En  la aplicación de escritorio:
-	- El dueño puede acceder a todos los métodos.
-	- El gerente puede acceder a menos métodos que el dueño.
-	- El empleado común, únicamente, puede procesar los pedidos de los clientes.
-
- 
-
-
-
-<!--stackedit_data:
-eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWFsaXRvXG5hdXRob3
-I6IERpZWdvIEhlcm7DoW5kZXogRGVsZ2Fkb1xudGFnczogJ1JF
-QURNRSwgVGFtYWxpdG8sIFdQRiwgV0VCLCAuTkVULCBTUUxTZX
-J2ZXInXG5jYXRlZ29yaWVzOiAnV0VCLCAuTkVULCBBUFAnXG5k
-YXRlOiAyNC8wMi8yMDIxXG4iLCJoaXN0b3J5IjpbMjEwODU3NT
-YzNywyMTIwMjU3NTMsLTk4MDQ0NjgyNyw2MTQ0NzU0MDUsLTEy
-NzM5MTU0NDIsLTE2NzY0NDY0OTEsLTU2Mzk3NjA0NiwtMTc3Nz
-gxMDE3MSwtOTQ2MjM4NzExLDg2NDM3Mzc0NiwxNzg1NDE3MzEs
-MTMxMzgwODc1NywtMjEyNTA4NTA4NCwtODM5ODUzNDk5LDEyNz
-M1NzgyMSwtMTMyMjE5NzMwNCwxMjYxOTA3MTY4LDkzNDQwMDU5
-OCwtNzQ4MzkzMzQzLC0xOTE3OTg4NTIzXX0=
--->
+[MIT](LICENSE)
