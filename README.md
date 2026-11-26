@@ -16,6 +16,14 @@ Start with the database diagram to see what the two apps share. Then compare the
 
 This is an academic project. A local build would require Windows for WPF, compatible .NET tooling, and a locally configured SQL Server database. The original environment used SQL Server 2019 Developer. A current end-to-end setup has not been verified.
 
+## Local database configuration
+
+The ASP.NET Web Forms project uses the `TAMALITO_ODBC_CONNECTION_STRING` environment variable. Set it to a connection string for a local SQL Server database using an installed ODBC driver. With no variable set, the app looks for a local ODBC data source named `tamalito-local`.
+
+The WPF app uses `TAMALITO_SQL_CONNECTION_STRING` and defaults to LocalDB with Windows authentication. Set the variable if you use a different local instance or database name. Use the [database materials](BD_Tamalito/) to review the schema before running the setup script against a disposable database.
+
+Build on Windows using the solutions under [TamalitoWEB](TamalitoWEB/) and [TamalitoWPF](TamalitoWPF/). The storefront targets .NET Framework 4.7.2 and requires Visual Studio web build tools and NuGet package restore. The apps are coursework demos for local use.
+
 ## Credits
 
 Built for the Desarrollo de Aplicaciones Informáticas course at Instituto Tecnológico Autónomo de México (ITAM) by [Diego Hernández Delgado](https://github.com/DiegoHuesos), [Ángel Zatarain López](https://github.com/angelzatarain), and José Carlos López, with instruction from [Dra. Ana Lidia Franzoni](https://www.linkedin.com/in/ana-lidia-franzoni-5b19429).

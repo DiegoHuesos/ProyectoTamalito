@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +11,7 @@ namespace tamalitoWeb
     public partial class InicioSesion : System.Web.UI.Page
     {
         protected OdbcConnection conectarBD() { //Se crea el método para conectarse a la base de datos. Este está presente en todas las ventanas que lo necesitan.
-            String stringConexion = "Driver={SQL Server Native Client 11.0};Server=localhost;Uid=sa;Pwd=sqladmin;Database=tamalito";
+            String stringConexion = System.Environment.GetEnvironmentVariable("TAMALITO_ODBC_CONNECTION_STRING") ?? "DSN=tamalito-local";
             try {
                 OdbcConnection conexion = new OdbcConnection(stringConexion);
                 conexion.Open();

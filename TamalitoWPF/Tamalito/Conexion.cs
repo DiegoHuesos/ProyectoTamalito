@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,7 +20,7 @@ namespace Tamalito
             SqlConnection cnn;
             try
             {
-                cnn = new SqlConnection("Data Source=localhost;Initial Catalog=tamalito;ID=sa;Password=sqladmin");
+                cnn = new SqlConnection(System.Environment.GetEnvironmentVariable("TAMALITO_SQL_CONNECTION_STRING") ?? @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=tamalito;Integrated Security=True");
 
                 cnn.Open();
             }

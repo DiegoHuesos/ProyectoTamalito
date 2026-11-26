@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Data.Odbc;
 using System.Linq;
@@ -12,7 +12,7 @@ namespace tamalitoWeb
     {
         protected OdbcConnection conectarBD()
         {
-            String stringConexion = "Driver={SQL Server Native Client 11.0};Server=localhost;Uid=sa;Pwd=sqladmin;Database=tamalito";
+            String stringConexion = System.Environment.GetEnvironmentVariable("TAMALITO_ODBC_CONNECTION_STRING") ?? "DSN=tamalito-local";
             try
             {
                 OdbcConnection conexion = new OdbcConnection(stringConexion);
