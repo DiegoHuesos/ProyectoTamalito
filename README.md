@@ -20,9 +20,9 @@ This is an academic project. A local build would require Windows for WPF, compat
 
 The ASP.NET Web Forms project uses the `TAMALITO_ODBC_CONNECTION_STRING` environment variable. Set it to a connection string for a local SQL Server database using an installed ODBC driver. With no variable set, the app looks for a local ODBC data source named `tamalito-local`.
 
-The WPF app uses `TAMALITO_SQL_CONNECTION_STRING` and defaults to LocalDB with Windows authentication. Set the variable if you use a different local instance or database name. Use the [database materials](BD_Tamalito/) to review the schema before running the setup script against a disposable database.
+The WPF app uses `TAMALITO_SQL_CONNECTION_STRING` and defaults to LocalDB with Windows authentication. Set the variable if you use a different local instance or database name. Review the [schema diagram](BD_Tamalito/Diagrama_BD.png) before running the [database initialization script](BD_Tamalito/Inicializaci%C3%B3nBaseDeDatos.sql) against a disposable database.
 
-Build on Windows using the solutions under [TamalitoWEB](TamalitoWEB/) and [TamalitoWPF](TamalitoWPF/). The storefront targets .NET Framework 4.7.2 and requires Visual Studio web build tools and NuGet package restore. The apps are coursework demos for local use.
+Build on Windows using the [web solution](TamalitoWEB/tamalitoWeb/tamalitoWeb.sln) and the [WPF solution](TamalitoWPF/Tamalito.sln). Both apps target .NET Framework 4.7.2 and require its targeting pack. The web app also requires Visual Studio web build tools and NuGet package restore. The apps are coursework demos for local use.
 
 ## Credits
 
